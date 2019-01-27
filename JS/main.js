@@ -45,7 +45,7 @@ function test4(){
       fnumber = prompt("higher");
     }  
       else if( randomNum == fnumber){
-      fnumber = prompt("correct!!!");
+      fnumber = alert("correct!!!");
     }       
       else if(fnumber > randomNum){
       fnumber = prompt("lower");
